@@ -1,18 +1,16 @@
-# Reason for this Repo
+# **DSA Grind - My Journey to Mastery 🚀**  
 
-1. Accountability
-2. To be consistent
+### **Why This Repo?**  
+This repo exists to keep me **accountable** and ensure **consistency** in my DSA grind. My goal is to **improve problem-solving skills** and stay committed to daily practice.  
 
-## Date started : 11/3/25
+### **Started On:** 🗓 **March 11, 2025**  
 
-## My Approach
+## **My Approach** 🔥  
+1️⃣ **Try solving the problem for 30 minutes** without any help.  
+2️⃣ If stuck, I'll **check hints** from Striver's DSA Sheet.  
+3️⃣ If I still don’t get it, I'll **watch Striver's video** for clarity.  
+4️⃣ I'll **re-solve the same problem** to ensure full understanding.  
 
-1. Try to solve the problem for **30 min**
-2. If I stuck I'll read the hints from **Striver's DSA sheet**
-3. Even after I don't understand I'll watch Striver's video
-4. I'll re-solve the same problem again to make sure I understand the problem
-
-## The problems I solved
-
-- [x] Binary Search algorithm
-- [x] 2 Crystal ball problem using (sqrt time complexity)
+## **Problems Solved ✅**  
+- **Binary Search Algorithm**  
+- **Two Crystal Ball Problem** (**√n time complexity**)  
