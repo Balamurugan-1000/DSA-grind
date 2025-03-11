@@ -1,6 +1,6 @@
 # Reason for this Repo
 
-1. Accountablity
+1. Accountability
 2. To be consistent
 
 ## Date started : 11/3/25
@@ -13,3 +13,6 @@
 4. I'll re-solve the same problem again to make sure I understand the problem
 
 ## The problems I solved
+
+- [x] Binary Search algorithm
+- [x] 2 Crystal ball problem using (sqrt time complexity)
