@@ -1,12 +1,13 @@
 # **DSA Grind - My Journey to Mastery 🚀**
 
-### **Why This Repo?**
+## **Why This Repo?**
 
 This repo exists to keep me **accountable** and ensure **consistency** in my DSA grind. My goal is to **improve problem-solving skills** and stay committed to daily practice.
 
-### **Started On:** 🗓 **March 11, 2025**
+## **Started On:** 🗓 **March 11, 2025**
 
-## Streak  2 
+## Streak **2**
+
 ## **My Approach** 🔥
 
 1️⃣ **Try solving the problem for 30 minutes** without any help.  
