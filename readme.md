@@ -22,3 +22,4 @@ This repo exists to keep me **accountable** and ensure **consistency** in my DSA
 - [x] Bubble Sort
 - [x] Queue
 - [x] Stack
+- [x] Maze resolver (Recursion)

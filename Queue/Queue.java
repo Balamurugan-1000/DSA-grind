@@ -1,22 +1,23 @@
 class Node<T> {
   private T value;
-  private Node<T> next; // Use next instead of prev
+  private Node<T> prev; // Correctly using generics
 
   public Node(T val) {
     this.value = val;
-    this.next = null;
+    this.prev = null;
   }
 
+  // Optional: Getter methods for encapsulation
   public T getValue() {
     return value;
   }
 
-  public Node<T> getNext() { // Changed to getNext()
-    return next;
+  public Node<T> getPrev() {
+    return prev;
   }
 
-  public void setNext(Node<T> next) { // Changed to setNext()
-    this.next = next;
+  public void setPrev(Node<T> prev) {
+    this.prev = prev;
   }
 }
 
@@ -29,23 +30,23 @@ public class Queue<T> {
     this.rear = null;
   }
 
-  // Enqueue operation (adds to the rear)
+  // Enqueue operation
   public void enqueue(T item) {
     Node<T> newNode = new Node<>(item);
     if (rear == null) {
       front = rear = newNode;
     } else {
-      rear.setNext(newNode); // Fix: Use setNext() instead of setPrev()
+      rear.setPrev(newNode);
       rear = newNode;
     }
   }
 
-  // Dequeue operation (removes from the front)
+  // Dequeue operation
   public T dequeue() {
     if (front == null)
       throw new IllegalStateException("Queue is empty!");
     T val = front.getValue();
-    front = front.getNext(); // Fix: Move to next node
+    front = front.getPrev();
     if (front == null)
       rear = null; // If queue is empty after dequeue
     return val;
