@@ -6,7 +6,7 @@ This repo exists to keep me **accountable** and ensure **consistency** in my DSA
 
 ## **Started On:** 🗓 **March 11, 2025**
 
-## Streak **4**
+## Streak **5**
 
 ## **My Approach** 🔥
 
@@ -24,3 +24,4 @@ This repo exists to keep me **accountable** and ensure **consistency** in my DSA
 - [x] Stack
 - [x] Maze resolver (Recursion)
 - [x] Quick sort (Recursion)
+- [x] Doubly Linklist implementation
