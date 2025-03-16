@@ -24,4 +24,4 @@ This repo exists to keep me **accountable** and ensure **consistency** in my DSA
 - [x] Stack
 - [x] Maze resolver (Recursion)
 - [x] Quick sort (Recursion)
-- [x] Doubly Linklist implementation
+- [x] Doubly Linkedlist implementation

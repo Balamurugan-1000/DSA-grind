@@ -20,7 +20,6 @@ public class PreorderSearch<T> {
     if (node == null)
       return;
 
-    // Preorder traversal: Root → Left → Right
     path.add(node.data); // Visit node
     walk(node.left, path); // Go left
     walk(node.right, path); // Go right
@@ -38,5 +37,8 @@ public class PreorderSearch<T> {
   public static void main(String[] args) {
     PreorderSearch<Integer> tree = new PreorderSearch<>();
     tree.treeTraversal(10); // Example call
+    tree.treeTraversal(20); // Example call
+    tree.treeTraversal(30); // Example call
+    tree.treeTraversal(40); // Example call
   }
 }
