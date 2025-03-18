@@ -1,5 +1,7 @@
 package tree;
 
+import java.util.ArrayList;
+
 class Node {
   int value;
   Node left, right;
@@ -51,19 +53,63 @@ class BinarySearchTree {
 
   }
 
-  int[] walk(Node node, int[] path) {
+  // NOTE : This is for the pre Order traversal which is for adding element before
+  // recurrsion
+
+  ArrayList<Integer> walkpre(Node node, ArrayList<Integer> path) {
+
+    if (node == null)
+      return null;
+
+    path.add(node.value);
+    walk(node.left, path);
+    walk(node.right, path);
+    return path;
+  }
+
+  ArrayList<Integer> preOrderTraversal(Node node, ArrayList<Integer> path) {
+
+    return walkpre(node, path);
+
+  }
+
+  // NOTE : This is for the pre Order traversal which is for adding element After
+  // recurrsion
+  ArrayList<Integer> walkPost(Node node, ArrayList<Integer> path) {
 
     if (node == null)
       return null;
 
     walk(node.left, path);
-    path
+    walk(node.right, path);
+    path.add(node.value);
+    return path;
+  }
+
+  ArrayList<Integer> postOrderTraversal(Node node, ArrayList<Integer> path) {
+
+    return walkPost(node, path);
+
+  }
+
+  // NOTE : This is for the pre Order traversal which is for adding element
+  // between recurrsion like after left andf before right
+
+  ArrayList<Integer> walk(Node node, ArrayList<Integer> path) {
+
+    if (node == null)
+      return null;
+
     walk(node.left, path);
+    path.add(node.value);
+    walk(node.right, path);
+    return path;
   }
 
-  int[] traversal(Node node, int[] path) {
+  ArrayList<Integer> inOrderTraversal(Node node, ArrayList<Integer> path) {
 
-    return new int[4];
+    return walk(node, path);
 
   }
+
 }
