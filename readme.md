@@ -6,7 +6,7 @@ This repo exists to keep me **accountable** and ensure **consistency** in my DSA
 
 ## **Started On:** 🗓 **March 11, 2025**
 
-## Streak **6**
+## Streak **8**
 
 ## **My Approach** 🔥
 
