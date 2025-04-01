@@ -6,6 +6,8 @@ This repo exists to keep me **accountable** and ensure **consistency** in my DSA
 
 ## **Started On:** 🗓 **March 11, 2025**
 
+## Restart On: 🗓 April 2 2025
+
 ## Streak **0**
 
 ## MAX Streak 9
