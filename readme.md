@@ -8,7 +8,7 @@ This repo exists to keep me **accountable** and ensure **consistency** in my DSA
 
 ## Restart On: 🗓 April 2 2025
 
-## Streak **0**
+## Streak **1**
 
 ## MAX Streak 9
 
@@ -31,3 +31,11 @@ This repo exists to keep me **accountable** and ensure **consistency** in my DSA
 - [x] Doubly Linked list implementation
 - [x] Tree implementation Search and Insert
 - [x] Tree implementation In order , Pre order and post order traversal
+
+## NEETCODE 150
+
+1. Contain Duplicates Neetcode problem
+
+## source
+
+### Frontend Masters : The Primeagen
