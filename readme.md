@@ -36,7 +36,9 @@ This repo exists to keep me **accountable** and ensure **consistency** in my DSA
 
 ## NEETCODE 150
 
-1. Contain Duplicates Neetcode problem
+1. Contain Duplicates
+2. Is Anagram
+3. Two Sum
 
 ## source
 
