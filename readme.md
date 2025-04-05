@@ -2,13 +2,13 @@
 
 ## **Why This Repo?**
 
-This repo exists to keep me **accountable** and ensure **consistency** in my DSA grind. My goal is to **improve problem-solving skills** and stay committed to daily practice.
+This repo exists to keep me **accountable** and ensure **consistency** in my DSA-grind. My goal is to **improve problem-solving skills** and stay committed to daily practice.
 
 ## **Started On:** 🗓 **March 11, 2025**
 
 ## Restart On: 🗓 April 2 2025
 
-## Streak **1**
+## Streak **2**
 
 ## MAX Streak 9
 
