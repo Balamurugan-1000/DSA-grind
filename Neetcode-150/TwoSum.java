@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class TwoSum {
 
     public static int[] findTwoSum(int[] arr, int tar) {
-        int[] ans = new int[2];
+        // int[] ans = new int[2];
         // Brute force approach
 
         // for (int i = 0; i < arr.length; i++) {
