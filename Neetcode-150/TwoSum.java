@@ -7,14 +7,14 @@ import java.util.Scanner;
  */
 public class TwoSum {
 
-    public static int[] findTwoSum(int[] arr, int tar) {
+    public static int[] findTwoSum(int[] num, int target) {
         // int[] ans = new int[2];
-        // Brute force approach
+        // brute force approach
 
         // for (int i = 0; i < arr.length; i++) {
         // for (int j = i + 1; j < arr.length; j++) {
         //
-        // if (arr[i] + arr[j] == tar) {
+        // if (num[i] + num[j] == target) {
         // ans[0] = i;
         // ans[1] = j;
         // return ans;
@@ -22,12 +22,12 @@ public class TwoSum {
         // }
 
         HashMap<Integer, Integer> hashMap = new HashMap<>();
-        for (int i = 0; i < arr.length; i++) {
-            hashMap.put(arr[i], i);
+        for (int i = 0; i < num.length; i++) {
+            hashMap.put(num[i], i);
         }
-        for (int i = 0; i < arr.length; i++) {
-            if (hashMap.containsKey(tar - arr[i]) && hashMap.get(tar - arr[i]) != i)
-                return new int[] { i, hashMap.get(tar - arr[i]) };
+        for (int i = 0; i < num.length; i++) {
+            if (hashMap.containsKey(target - num[i]) && hashMap.get(target - num[i]) != i)
+                return new int[] { i, hashMap.get(target - num[i]) };
         }
 
         return null;

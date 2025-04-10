@@ -1,4 +1,4 @@
-# **DSA Grind - My Journey to Mastery 🚀**
+# **DSA Grind - My Journey to Mastery 🚀** 😈
 
 ## **Why This Repo?**
 
@@ -6,9 +6,9 @@ This repo exists to keep me **accountable** and ensure **consistency** in my DSA
 
 ## **Started On:** 🗓 **March 11, 2025**
 
-## Restart On: 🗓 April 2 2025
+## Restart On: 🗓 April 10 2025
 
-## Streak **2**
+## Streak **0**
 
 ## MAX Streak 9
 
@@ -39,7 +39,10 @@ This repo exists to keep me **accountable** and ensure **consistency** in my DSA
 1. Contain Duplicates
 2. Is Anagram
 3. Two Sum
+4. Group Anagram
 
 ## source
 
 ### Frontend Masters : The Primeagen
+
+### Youtube : Neetcode
