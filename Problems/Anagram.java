@@ -12,9 +12,11 @@ public class Anagram {
       hashMap.put(a, (hashMap.getOrDefault(a, 0) + 1));
     }
 
+    
     for (char a : t.toCharArray()) {
       if (!hashMap.containsKey(a) || hashMap.get(a) == 0)
         return false;
+
       hashMap.put(a, (hashMap.getOrDefault(a, 0) - 1));
     }
 
