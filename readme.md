@@ -8,7 +8,6 @@ This repo exists to keep me **accountable** and ensure **consistency** in my DSA
 
 ## Restart On: 🗓 April 10 2025
 
-## Streak **0**
 
 ## MAX Streak 9
 
@@ -32,17 +31,20 @@ This repo exists to keep me **accountable** and ensure **consistency** in my DSA
 - [x] Tree implementation Search and Insert
 - [x] Tree implementation In order , Pre order and post order traversal
 
-## Neetcode 150 started On: 🗓 April 4 2025
-
-## NEETCODE 150
-
-1. Contain Duplicates
-2. Is Anagram
-3. Two Sum
-4. Group Anagram
 
 ## source
 
 ### Frontend Masters : The Primeagen
 
-### Youtube : Neetcode
+### Youtube : Neetcode , Strivers
+
+
+### Cracking the Coding Interview book started on April 26th 
+
+
+
+## Cracking the Coding Interview,  (101/708) still 607 to go 🥳 
+
+#### ik reading a book is not a good way or rather not the best way to learn dsa but I wanna try something that I didnt try before that learn something from a book and I found that this could be the best resourse for DSA and for DSA I found many books What make it special is its not just about DSA its about How and why this type of Interview and its more like the experience of the author
+
+    This book is actually intresting and it give me different perspective about Interviews
